@@ -58,5 +58,6 @@ I was hoping this NPC would be something malevolent, a threat to the village to 
 - Boroth Tolmen - Burglar
 - Grova Harkness - Cleric
 
+
 ## What Comes Next
 As our volunteers prepare to step through the obsidian mirror, they know only one thing for certain: they have until nightfall to save their village from The Sculptor's twisted plans. Will any survive this journey beyond the mirror? And what horrors await them in that other realm? Next session: Into the mirror we go...
