@@ -2,58 +2,32 @@
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 ---
-
-<header>
-	<nav class="max-w-4xl mx-auto px-4 flex justify-between items-center">
-		<a href="/" class="text-2xl font-bold title">The Wanderer's Journal</a>
-		
-		<div class="flex gap-6">
-		  <HeaderLink href="/blog">Posts</HeaderLink>
-		  <HeaderLink href="/tags">Tags</HeaderLink>
-		</div>
-	</nav>
+<header class="relative py-4">
+    <!-- Decorative border -->
+    <div class="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-amber-800/20 to-transparent"></div>
+    
+    <nav class="max-w-4xl mx-auto px-4 flex justify-between items-center">
+        <a href="/" class="text-2xl font-heading title">The Wanderer's Journal</a>
+        
+        <div class="flex gap-6">
+            <HeaderLink href="/blog">Blog</HeaderLink>
+        </div>
+    </nav>
 </header>
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav .title {
-		
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
+    header {
+        margin: 0;
+        padding: 0.5em 1em;
+        background: transparent;
+    }
+    nav a {
+        padding: 1em 0.5em;
+        color: var(--black);
+    }
+    nav a:hover {
+        color: #8B4513;
+    }
+    nav a.active {
+        border-bottom: 2px solid #8B4513;
+    }
 </style>

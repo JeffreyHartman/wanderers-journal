@@ -6,13 +6,13 @@ pubDate: "Dec 18 2024"
 
 ## Setting the Stage
 
-Welcome to my first entry in what I hope will be a series of journal posts chronicling my solo RPG adventures. Lately I've been drawn to the funnel concept of OSR games - taking a group of ordinary people and throwing them into extraordinary circumstances. This style of play, popularized by Dungeon Crawl Classics, typically starts each player with four expendable characters. By the end, if they're lucky, each player has at least one survivor who can graduate to a full fledged character who can go on to play in a campaign.
+Welcome to my first entry in what I hope will be a series of journal posts chronicling my solo RPG adventures! Lately I've been craving something a bit more deadly than the RPGs I've been playing in group play recently. Sure, dying sucks and all, but when your party is rich enough to carry multiple resseruction scrolls around, it's more of an inconvenience than an end. That's what's drawn me to playing a funnel game - taking a group of ordinary people and throwing them into extraordinary circumstances. This style of play, popularized by Dungeon Crawl Classics, typically starts each player with four expendable characters. By the end, if they're lucky, each player has at least one survivor who can graduate to a full fledged character who can go on to play in a campaign.
 
-For rules, I'm using Cairn as the base system. I've been interested in Cairn for a while, having already stolen some of its rules for a family home game I ran with a heavily modified Knave 1e. For solo play, I prefer something simple and OSR-like in tone, with quick combats - and Cairn looks like it fits the bill perfectly.
+For rules, I'm using Cairn as the base system. I've been interested in Cairn for a while, having already stolen some of its rules for a family home game I ran with a heavily home-ruled Knave 1e. For solo play, I prefer something simple and OSR-like in tone, with quick combats - and Cairn looks like it fits the bill perfectly.
 
 ## Crafting the Adventure
 
-Using the excellent book _The Adventure Crafter_, I rolled for story elements in order to get an idea for a starting plot. The Adventure Crafter is capable of creating long, multi thread adventures, but for my case I'm only using to build one single inciting incident. For the rest of the adventure I'll be using a mix of Mythic 2e and various other oracle tables to find out what happens. For now though, five rolls gave us these plot elements:
+I really like Word Mill Game's book _The Adventure Crafter_, so I'm going to use that to generate an adventure. I rolled for story elements in order to get an idea for a starting plot. The Adventure Crafter is capable of creating long, multi thread adventures, but for my case I'm only using to build one single inciting incident. For the rest of the adventure I'll be using a mix of Mythic 2e and various other oracle tables to find out what happens. For now though, five rolls gave us these plot elements to work with:
 
 - Character Connection
 - Help is offered, for a Price
@@ -20,7 +20,7 @@ Using the excellent book _The Adventure Crafter_, I rolled for story elements in
 - Time Limit
 - An Object of Unknown Use is Found
 
-This already sparks some ideas. The initial prompt of _Character Connection_ suggests "A Character forms a connection with another character". Deciding I would treat our townsfolk as a collective "character", I needed to generate their mysterious contact. Using Mythic 2e's NPC tables, I rolled these traits:
+This already sparks some ideas. The initial prompt of _Character Connection_ suggests "A Character forms a connection with another character". Deciding I would treat our townsfolk as a collective "character", I needed to generate an NPC for them to deal with. Using Mythic 2e's NPC tables, I rolled these traits:
 
 - Identity: Prisoner Fighter
 - Description: Sophisticated Confident
@@ -32,7 +32,7 @@ This already sparks some ideas. The initial prompt of _Character Connection_ sug
 - Trait: Healthy Social
 
 
-I was hoping this NPC would be something malevolent, a threat to the village to kick things off. I was having trouble figuring out what exactly this entity was though using these traits. What finally emerged was not one character, but two entities that would combine with our plot points and shape our story...
+I was hoping this NPC would be something malevolent, a threat to the village to kick things off. I was having trouble figuring out what exactly this entity was though using these traits. After pondering this, what finally emerged was not one character, but two entities that would combine with our plot points and shape our story...
 
 ## The Tale Unfolds
 
