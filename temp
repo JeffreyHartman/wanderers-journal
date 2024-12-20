@@ -1,0 +1,23 @@
+{
+					posts.map((post) => (
+					<article class="border-b border-gray-700 pb-8">
+						<div class="flex items-center justify-between group">
+							<h3 class="text-xl font-bold">
+							<a 
+								href={`/blog/${post.id}`} 
+								class="text-orange-500 hover:text-orange-400 hover:underline hover:underline-offset-4 hover:decoration-dotted flex items-center"
+							>
+								{post.data.title}
+								<span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-sm font-normal">
+								Read More →
+								</span>
+							</a>
+							</h3>
+						</div>
+						<time class="text-gray-400 text-sm">
+							{post.data.pubDate.toLocaleDateString()}
+						</time>
+						<p class="mt-2">{post.data.description}</p>
+					</article>
+					))
+				  }
