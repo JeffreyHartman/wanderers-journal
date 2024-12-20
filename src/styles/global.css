@@ -4,7 +4,9 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
-:root {
+ :root {
+  --font-heading: 'Marcellus', serif;
+  --font-body: 'Bitter', serif;
   --accent: #2337ff;
   --accent-dark: #000d8a;
   --black: 15, 18, 25;
@@ -15,7 +17,7 @@
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
 }
-@font-face {
+/* @font-face {
   font-family: "Atkinson";
   src: url("/fonts/atkinson-regular.woff") format("woff");
   font-weight: 400;
@@ -28,14 +30,12 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}
+} */
 body {
-  font-family: "Atkinson", sans-serif;
+  font-family: var(--font-body);
   margin: 0;
   padding: 0;
   text-align: left;
-  background: linear-gradient(var(--gray-gradient)) no-repeat;
-  background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: rgb(var(--gray-dark));
@@ -57,31 +57,42 @@ h6 {
   margin: 0 0 0.5rem 0;
   color: rgb(var(--black));
   line-height: 1.2;
+  font-family: var(--font-heading);
+  letter-spacing: 0.02em;
 }
+/* Adjusted heading sizes for Marcellus */
 h1 {
-  font-size: 3.052em;
+  font-size: 2.8em; /* Slightly reduced from 3.052em */
 }
 h2 {
-  font-size: 2.441em;
+  font-size: 2.2em; /* Slightly reduced from 2.441em */
 }
 h3 {
-  font-size: 1.953em;
+  font-size: 1.8em; /* Slightly reduced from 1.953em */
 }
 h4 {
-  font-size: 1.563em;
+  font-size: 1.4em; /* Slightly reduced from 1.563em */
 }
 h5 {
-  font-size: 1.25em;
+  font-size: 1.2em; /* Slightly reduced from 1.25em */
 }
 strong,
 b {
-  font-weight: 700;
+  font-weight: 600;
 }
 a {
   color: var(--accent);
+  text-decoration: none;
+  background: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-size: 0px 1px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  transition: background-size 0.3s ease-in-out;
 }
+
 a:hover {
   color: var(--accent);
+  background-size: 100% 1px;
 }
 p {
   margin-bottom: 1em;
@@ -89,6 +100,34 @@ p {
 .prose p {
   margin-bottom: 2em;
 }
+.prose ul {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  list-style: none;
+}
+
+.prose ul li {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: #2D2D2D;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+/* Override or remove any existing ::before pseudo-elements */
+.prose ul li::before {
+  content: "✧" !important;  /* Force our content */
+  position: absolute;
+  left: 0;
+  color: #8B4513;
+  border: none;  /* Remove any existing borders */
+  width: auto;   /* Remove fixed width */
+  height: auto;  /* Remove fixed height */
+  box-sizing: content-box;
+  /* Reset any transformation properties */
+  transform: none;
+}
+
 textarea {
   width: 100%;
   font-size: 16px;
@@ -120,7 +159,9 @@ blockquote {
   border-left: 4px solid var(--accent);
   padding: 0 0 0 20px;
   margin: 0px;
-  font-size: 1.333em;
+  font-size: 1.2em;
+  font-family: var(--font-body);
+  font-style: italic;
 }
 hr {
   border: none;

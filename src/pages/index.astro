@@ -29,7 +29,7 @@ const posts = (await getCollection("blog")).sort(
                 <h3 class="text-xl font-bold">
                   <a
                     href={`/blog/${post.id}`}
-                    class="text-orange-500 hover:text-orange-400 hover:underline hover:underline-offset-4 hover:decoration-dotted flex items-center"
+                    class="text-orange-500 hover:text-orange-400 flex items-center"
                   >
                     {post.data.title}
                     <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-sm font-normal">

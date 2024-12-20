@@ -22,14 +22,15 @@ Using the excellent book _The Adventure Crafter_, I rolled for story elements in
 
 This already sparks some ideas. The initial prompt of _Character Connection_ suggests "A Character forms a connection with another character". Deciding I would treat our townsfolk as a collective "character", I needed to generate their mysterious contact. Using Mythic 2e's NPC tables, I rolled these traits:
 
-Identity: Prisoner Fighter
-Description: Sophisticated Confident
-Appearance: Striking Brutish
-Background: Seclusion Service
-Personality: Interesting Bold
-Motivation: Pursue Art
-Skills: Transform Beginner
-Trait: Healthy Social
+- Identity: Prisoner Fighter
+- Description: Sophisticated Confident
+- Appearance: Striking Brutish
+- Background: Seclusion Service
+- Personality: Interesting Bold
+- Motivation: Pursue Art
+- Skills: Transform Beginner
+- Trait: Healthy Social
+
 
 I was hoping this NPC would be something malevolent, a threat to the village to kick things off. I was having trouble figuring out what exactly this entity was though using these traits. What finally emerged was not one character, but two entities that would combine with our plot points and shape our story...
 
@@ -59,6 +60,7 @@ Fifteen brave volunteers step forward, each bringing their own skills and storie
 - Griga Burl - Merchant
 - Boroth Tolmen - Burglar
 - Grova Harkness - Cleric
+
 
 ## What Comes Next
 
