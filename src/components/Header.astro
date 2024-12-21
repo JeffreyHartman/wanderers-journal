@@ -7,7 +7,7 @@ import { SITE_TITLE } from '../consts';
     <div class="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-amber-800/20 to-transparent"></div>
     
     <nav class="max-w-4xl mx-auto px-4 flex justify-between items-center">
-        <a href="/" class="text-2xl font-heading title">The Wanderer's Journal</a>
+        <a href={import.meta.env.BASE_URL} class="text-2xl font-heading title">The Wanderer's Journal</a>
         
         <div class="flex gap-6">
             <HeaderLink href="/blog">Blog</HeaderLink>

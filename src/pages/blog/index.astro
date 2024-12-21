@@ -18,7 +18,7 @@ const posts = (await getCollection('blog')).sort(
                     posts.map((post) => (
                         <li class="border-b border-amber-800/10 pb-8 last:border-b-0">
                             <article>
-                                <a href={`/blog/${post.id}/`} class="group">
+                                <a href={`${import.meta.env.BASE_URL}/blog/${post.id}/`} class="group">
                                     <h2 class="text-2xl font-heading mb-2 hover:text-amber-800 transition-colors">
                                         {post.data.title}
                                     </h2>
